@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<form> action="/tutorial/action.html">
+    <fieldset>
+    <legend>Travel Reservation form</legend><br />
+    <h4>*denotes mandotory</h4>
+
+    <label>Full name*</label><br/>
+    <input type="text" placeholder="First name Last name" name="firstname lastname"><br />
+    <label>Email adress*</label><br/>
+    <input type="text"><br />
+    <label>Select tour package* </label><br/>
+    <select>
+        <option value="United State">United State</option>
+        <option value="Germany">Germany</option>
+        <option value="Canada">Canada</option>
+        <option value="Japan">Japan</option>
+        <option value="Italy">Italy</option>
+        <option value="China">China</option>
+    </select><br/>
+    <label>Arrival Date*</label><br/>
+    <input type="date"><br/>
+    <label>Number of persons*</label><br/>
+    <input type="text"><br/>
+    <legend>What would you want to avail?*</legend>
+    <label><input type="checkbox"name="Boarding-name" value="html">Boarding</label><br />
+    <label><input type="checkbox"name="Fooding-name" value="Fooding">Fooding</label><br />
+    <label><input type="checkbox"name="Sight seeing" value="Sight seeing">Sight seeing</label><br />
+    <label>Discount Coupon code</label><br />
+    <input type="text"><br />
+    <legend>Terms and conditions*</legend>
+    <label><input type="radio" name="Terms and conditions" value="I agree">I agree</label><br />
+    <label><input type="radio" name="Terms and conditions" value="I disagree">I disagree</label><br />
+    <button type="submit">Complete reservation</button>
+    </fieldset>
+</form>
