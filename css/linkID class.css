@@ -1,0 +1,12 @@
+.my-class {
+    color: light red; background-color: pink; font-family: Verdana, DejaVu Sans, sans-serif;
+}
+#identified{
+    color:blue; font-size: 36px;
+}
+.my-class.other-class {
+    font-size: 24px;
+}
+#identified2 {
+    background-color: light green; font-size: 24px; font-weight: bold;
+}
