@@ -1,0 +1,9 @@
+button {
+    font-family: Helvetica, Times New Roman, sans-serif; font-size: 28px;
+}
+button.class1 {
+    color: white; background-color: black;
+}
+button.class2 {
+    color: black; background-color: yellow;
+}
